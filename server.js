@@ -4,8 +4,8 @@ const PORT = 8080
 
 let routes = [
     { prefix: `/karyawan`, route: require(`./routes/karyawan.route`) },
-    /*{ prefix: `/user`, route: require(`./routes/user`) },
-    { prefix: `/pelanggaran`, route: require(`./routes/pelanggaran`) },
+    { prefix: `/pelanggan`, route: require(`./routes/pelanggan.route`) }
+    /*{ prefix: `/pelanggaran`, route: require(`./routes/pelanggaran`) },
     {
         prefix: `/pelanggaran_siswa`,
         route: require(`./routes/pelanggaran_siswa`)
